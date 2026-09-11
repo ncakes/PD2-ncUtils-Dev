@@ -1,14 +1,14 @@
 {
 	"name": "ncUtils-Dev",
-	"description": "Development version of ncUtils.",
+	"description": "Development version of ncUtils. Blocks other mods from loading ncUtils.",
 	"author": "github.com/ncakes",
 	"contact": "github.com/ncakes/PD2-ncUtils-Dev",
-	"version": "1",
-	"priority": 0,
+	"version": "2",
+	"priority": 679,
 	"blt_version": 2,
 	"hooks": [
 		{
-			"hook_id": "lib/tweak_data/weapontweakdata",
+			"hook_id": "core/lib/system/coresystem",
 			"script_path": "lua/setup.lua"
 		}
 	],
